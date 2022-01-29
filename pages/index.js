@@ -80,13 +80,13 @@ export default function IndexPage() {
             <TextField
               value={userName}
               onChange={event => {
-                const valor = event.target.value;
+                const value = event.target.value;
 
                 /*
                 Trocar o valor da variavel através do React para que ele lide
                 com a atualização da página.
                 */
-                setUserName(valor);
+                setUserName(value);
               }}
               fullWidth
               textFieldColors={{
