@@ -64,7 +64,7 @@ export default function IndexPage() {
             as="form"
             onSubmit={(event) => {
               event.preventDefault();
-              router.push("/chat");
+              router.push(`/chat?userName=${userName}`);
             }}
             styleSheet={{
               display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
